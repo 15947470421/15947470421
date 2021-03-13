@@ -1,1 +1,144 @@
-sdfsdf
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="../CSS/尾部的CSS.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 0);
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /*标题栏的背景*/
+        .headline {
+            background-color: rgb(0, 0, 0);
+        }
+
+        /* 标题栏校徽背景图片 */
+        .xiaohui {
+            /* 选择图片路径 */
+            background-image: url(../图片/南航logo（78px）.png);
+            /* 选择图片位置 */
+            background-position: left center;
+            /* 不平铺 */
+            background-repeat: no-repeat;
+            /* 文字缩进4个字符 */
+            text-indent: 4em;
+        }
+
+        /*标题栏的链接格式*/
+        .headline>a {
+            /*链接盒子宽度*/
+            width: 10.5%;
+            /*链接盒子高度*/
+            height: 80px;
+            /*文本垂直居中*/
+            line-height: 80px;
+            /*链接盒子背景颜色*/
+            background-color: rgb(0, 0, 0);
+            /*链接文字颜色*/
+            color: rgb(112, 110, 110);
+            /* 文字大小 */
+            font-size: 23px;
+            /* 文字字体 */
+            font-family: Microsoft YaHei;
+            /*取消链接文字的下划线*/
+            text-decoration: none;
+            /*链接转化为行内块格式*/
+            display: inline-block;
+            /*文本水平居中*/
+            text-align: center;
+        }
+
+        /* 段落缩进2字符 */
+        p {
+            text-indent: 2em;
+        }
+
+        /* 鼠标经过标题栏的链接 */
+        .headline>a:hover {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+        }
+
+        video {
+            min-width: 100%;
+            min-height: 100%;
+            background-image: url(../图片/图腾文化背景.jpg);
+        }
+
+        source {
+            height: auto;
+            width: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="headline">
+        <a href="index.html" class="xiaohui">首页</a>
+        <a href="民族百科————蒙古族.html">蒙古族简介</a>
+        <a href="民族文化.html">蒙古族文化</a>
+        <a href="侗族简介.html">侗族简介</a>
+        <a href="侗族文化.html">侗族文化</a>
+        <a href="满族简介.html">满族简介</a>
+        <a href="满族文化.html">满族文化</a>
+        <a href="https://baike.baidu.com/">百度百科</a>
+        <a href="注册界面.html">立即登录/注册</a>
+    </div>
+    <a href="民族百科————蒙古族.html">
+        <video autoplay width="500px" loop>
+            <source src="../视频/蒙古族封面.mp4" type="video/mp4">
+        </video>
+    </a>
+    <a href="侗族简介.html">
+        <video autoplay width="500px" loop>
+            <source src="../视频/侗族封面.mp4" type="video/mp4">
+        </video>
+    </a>
+    <a href="满族简介.html">
+        <video autoplay width="500px" loop>
+            <source src="../视频/满族封面.mp4" type="video/mp4">
+        </video>
+    </a>
+    <div class="footer">
+        <div>
+            <img src="../图片/南航logo.png" alt="">
+            <p style="font-size: 15px;margin-top: 20px;text-indent: 0;">© 2021 赵振宇 王瀚
+                吴东东 网页中使用图片及视频如涉及版权问题请联系我们</p>
+        </div>
+        <div>
+            <dl>
+                <dt>蒙古族</dt>
+                <dd><a href="民族百科————蒙古族.html">蒙古族简介</a></dd>
+                <dd><a href="民族文化.html">蒙古族文化</a></dd>
+                <dd><a href="狼图腾.html">狼图腾</a></dd>
+                <dd><a href="蒙古族音乐.html">蒙古族音乐</a></dd>
+            </dl>
+            <dl>
+                <dt>侗族</dt>
+                <dd><a href="侗族简介.html">侗族简介</a></dd>
+                <dd><a href="侗族文化.html">侗族文化</a></dd>
+            </dl>
+            <dl>
+                <dt>满族</dt>
+                <dd><a href="满族简介.html">满族简介</a></dd>
+                <dd><a href="满族文化.html">满族文化</a></dd>
+            </dl>
+        </div>
+    </div>
+</body>
+
+</html>

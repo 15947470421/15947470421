@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册您的会员</title>
+    <link rel="stylesheet" href="../CSS/标题栏的CSS.css">
+    <link rel="stylesheet" href="../CSS/尾部的CSS.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="headline">
+        <a href="index.html" class="xiaohui">首页</a>
+        <a href="民族百科————蒙古族.html">蒙古族简介</a>
+        <a href="民族文化.html">蒙古族文化</a>
+        <a href="侗族简介.html">侗族简介</a>
+        <a href="侗族文化.html">侗族文化</a>
+        <a href="满族简介.html">满族简介</a>
+        <a href="满族文化.html">满族文化</a>
+        <a href="https://baike.baidu.com/">百度百科</a>
+        <a href="注册界面.html">立即登录/注册</a>
+    </div>
+    <div style="margin: 30px 130px;font-size: 20px;">
+        <h1 style="font-size: 50px;">欢迎注册</h1>
+        <table width="600">
+            <!-- 第一行 姓名-->
+            <tr>
+                <td>您的姓名：</td>
+                <td>
+                    <input type="text" name="姓名"><br>
+                </td>
+            </tr>
+            <!-- 第二行 性别-->
+            <tr>
+                <td>您的性别：</td>
+                <td>
+                    <label for="nan">男</label><input type="radio" name="sex" value="男" id="nan"> <label
+                        for="nv">女</label><input type="radio" name="sex" value="女" id="nv">
+                </td>
+            </tr>
+            <!-- 第三行 民族-->
+            <tr>
+                <td>您的民族：</td>
+                <td>
+                    <select>
+                        <option selected="selected">--请选择--</option>
+                        <option>蒙古族</option>
+                        <option>壮族</option>
+                        <option>侗族</option>
+                        <option>维吾尔族</option>
+                        <option>哈萨克族</option>
+                        <option>满族</option>
+                    </select><br>
+                </td>
+            </tr>
+            <!-- 第四行 生日-->
+            <tr>
+                <td>您的生日：</td>
+                <td>
+                    <select>
+                        <option selected="selected">--请选择年--</option>
+                        <option>2004</option>
+                        <option>2003</option>
+                        <option>2002</option>
+                        <option>2001</option>
+                        <option>2000</option>
+                        <option>1999</option>
+                    </select>
+                    <select>
+                        <option selected="selected">--请选择月--</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                    </select>
+                    <select>
+                        <option selected="selected">--请选择日--</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                </td>
+            </tr>
+            <!-- 第五行 家乡-->
+            <tr>
+                <td>您的家乡：</td>
+                <td>
+                    <input type="text" name="家乡"><br>
+                </td>
+            </tr>
+            <!-- 第六行 爱好-->
+            <tr>
+                <td>您的爱好：</td>
+                <td>
+                    <label for="足球">足球</label><input type="checkbox" name="hobby" value="足球">
+                    篮球<input type="checkbox" name="hobby" value="篮球">
+                    羽毛球<input type="checkbox" name="hobby" value="羽毛球">
+                    摄影<input type="checkbox" name="hobby" value="摄影">
+                    单机游戏<input type="checkbox" name="hobby" value="单机游戏">
+                    学习<input type="checkbox" name="hobby" value="学习">
+                    其他<input type="checkbox" name="hobby" value="其他">
+                </td>
+            </tr>
+            <!-- 第七行 个人简介-->
+            <tr>
+                <td>个人简介：</td>
+                <td>
+                    <textarea>请输入您的个人介绍：</textarea><br>
+                </td>
+            </tr>
+            <!-- 第八行 立即注册-->
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="立即注册"><br>
+                </td>
+            </tr>
+            <!-- 第九行 同意条款-->
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" value="同意条款">我同意注册会员相关条款<br>
+                </td>
+            </tr>
+            <!-- 第十行 已经是会员-->
+            <tr>
+                <td></td>
+                <td>
+                    <a href="#">已经是会员，立即登录</a><br>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="footer">
+        <div>
+            <img src="../图片/南航logo.png" alt="">
+            <p style="font-size: 15px;margin-top: 20px;">© 2021 赵振宇 王瀚
+                吴东东 网页中使用图片及视频如涉及版权问题请联系我们</p>
+        </div>
+        <div>
+            <dl>
+                <dt>蒙古族</dt>
+                <dd><a href="民族百科————蒙古族.html">蒙古族简介</a></dd>
+                <dd><a href="民族文化.html">蒙古族文化</a></dd>
+                <dd><a href="狼图腾.html">狼图腾</a></dd>
+                <dd><a href="蒙古族音乐.html">蒙古族音乐</a></dd>
+            </dl>
+            <dl>
+                <dt>侗族</dt>
+                <dd><a href="侗族简介.html">侗族简介</a></dd>
+                <dd><a href="侗族文化.html">侗族文化</a></dd>
+            </dl>
+            <dl>
+                <dt>满族</dt>
+                <dd><a href="满族简介.html">满族简介</a></dd>
+                <dd><a href="满族文化.html">满族文化</a></dd>
+            </dl>
+        </div>
+    </div>
+</body>
+
+</html>
